@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
-require './lib'
-puts 'Please enter x, y and z values one-per-line'
-print 'x = '
-var_x = gets.to_f
-print 'y = '
-var_y = gets.to_f
-print 'z = '
-var_z = gets.to_f
-puts "a = #{function_a(var_x, var_y, var_z)}"
+def function_a(var_x, var_y, var_z)
+  numerator = var_y - Math.sqrt(var_x.abs)
+  denominator = var_x - var_y.to_f / (var_z + var_x**2)
+  Math.log (numerator.to_f / denominator).abs
+end

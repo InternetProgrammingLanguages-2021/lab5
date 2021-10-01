@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
-require './lib'
+require './main'
 # test to check math function
 class TestFunctionA < Minitest::Test
   def test_zeros
