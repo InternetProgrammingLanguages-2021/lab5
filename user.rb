@@ -8,4 +8,4 @@ print 'y = '
 var_y = gets.to_f
 print 'z = '
 var_z = gets.to_f
-puts "a = #{function_a(var_x, var_y, var_z)}"
+puts "a = #{MathUtil.function_a(var_x, var_y, var_z)}"
